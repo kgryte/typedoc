@@ -11,6 +11,6 @@ yarn-error.log
 /examples/basic/json.json
 /node_modules/
 /coverage/
-/dist/
+# /dist/
 
 typedoc*.tgz

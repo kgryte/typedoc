@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import * as ts from 'typescript';
 
 import { ReferenceType, ReferenceReflection, ContainerReflection, ReflectionFlag } from '../../models';

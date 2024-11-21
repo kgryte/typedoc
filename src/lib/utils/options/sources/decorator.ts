@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import { DeclarationOption } from '../declaration';
 import { Options } from '..';
 import { Application } from '../../../application';

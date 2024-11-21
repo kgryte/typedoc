@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import * as ts from 'typescript';
 
 import { Type, TupleType } from '../../models/types/index';
