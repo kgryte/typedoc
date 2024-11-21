@@ -73,6 +73,13 @@ export class TSConfigReader implements OptionsReader {
 
         container.setValues(options).mapErr(errors => {
             for (const err of errors) {
+
+
+                // FIXME:
+                continue;
+                // FIXME:
+
+
                 logger?.error(err.message);
             }
         });

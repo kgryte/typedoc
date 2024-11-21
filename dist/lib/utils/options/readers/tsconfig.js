@@ -51,6 +51,7 @@ class TSConfigReader {
         }
         container.setValues(options).mapErr(errors => {
             for (const err of errors) {
+                continue;
                 logger === null || logger === void 0 ? void 0 : logger.error(err.message);
             }
         });
